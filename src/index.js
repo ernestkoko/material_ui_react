@@ -6,11 +6,8 @@ import { ThemeProvider } from '@mui/material';
 import {theme }from './styles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+
+///Using the ThemeProvider so the Mui components can have their default settings overriden
 root.render(
 <ThemeProvider theme={theme}>
 <App />

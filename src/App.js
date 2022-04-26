@@ -5,11 +5,10 @@ import { PhotoCamera } from '@mui/icons-material';
 import { MyDiv, MyCardGrid, MyCardContent, MyCardMedia, MyFooter } from './styles.js';
 
 
+///Creating a dummy list of cards we can loop through.
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 function App() {
   //const classes = ;
-
-
   return (
     <>
       <CssBaseline />
@@ -93,9 +92,8 @@ function App() {
             Footer
           </Typography>
           <Typography variant="subtitle1" align="center" color='textSecondary'>
-           Something here to give the footer a purpose..
+            Something here to give the footer a purpose..
           </Typography>
-
         </MyFooter>
 
       </main>
